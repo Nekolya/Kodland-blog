@@ -1,0 +1,54 @@
+.btext {
+    font-family: Circe Rounded;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+@font-face {
+    font-family: 'Circe Rounded';
+    src: local('Circe Rounded Regular'), local('Circe-Rounded-Regular'),
+        url('CirceRounded-Regular.woff2') format('woff2'),
+        url('CirceRounded-Regular.woff') format('woff'),
+        url('CirceRounded-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.link{
+    font-family: Circe Rounded;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+  }
+  @media only screen and (min-width: 601px) {
+    .container {
+      width: 85%;
+    }
+  }
+  @media only screen and (min-width: 993px) {
+    .container {
+      width: 90%;
+    }
+  }
+
+  .default-button{
+    color: rgb(255, 255, 255);
+    background: #315AF2;
+    padding: 6px 16px 6px 16px;
+    border: solid;
+    border-radius: 7px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  .default-button:hover {
+    background: rgba(49, 90, 242, 0.75);
+    color: white;
+}
+

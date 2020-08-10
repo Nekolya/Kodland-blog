@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <title> Kodland blog </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" style="margin-bottom: 0px;">
+            <ul id="nav-mobile" class="left" style="margin-bottom: 0px;  margin-top: 0px;">
+            <li><a href="#" class="brand-logo col s9">
+                <img class="" src="https://res.cloudinary.com/nekolya75/image/upload/v1597056637/kodland/logo.png" height="72" width="189.26">
+            </a></li>
+            <li><a href="sass.html" class="valign-wrapper col s2 link hide-on-med-and-down" style="color: #010101; margin-left: 15px;">
+                Блог</a></li>
+        </ul>
+            <form action="/example/">
+                <button type="submit" class="right default-button" style="margin: 22px;">+ Добавить статью </button>
+            </form>
+        </div>
+    </div>
+    <div class="divider"></div>
+</body>
+</html>
